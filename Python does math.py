@@ -13,7 +13,6 @@ print('Exercise 1: Find the value of x = 1 + 1')
 print('What is the value of x?')
 print('Type your answer below and press Enter.')
 answer = input()
-
 wait = input("Press Enter to see the answer...")
 
 
@@ -23,3 +22,46 @@ def find_x_1():
     print("The value of x is:", x)
 #function call
 find_x_1()
+
+hello = input("Press Enter to continue to the next exercise...")
+print('Exercise 2: Find the value of x = 20 - 40')
+print('What is the value of x?')
+print('Type your answer below and press Enter.')
+answer = input()
+wait = input("Press Enter to see the answer...")
+
+#function definition
+def find_x_2():
+    x = 20 - 40
+    print("The value of x is:", x)
+#function call
+find_x_2()
+
+hello = input("Press Enter to continue to the next exercise...")
+print('Exercise 3: Find the value of x = 5 * 9')
+print('What is the value of x?')
+print('Type your answer below and press Enter.')
+answer = input()
+wait = input("Press Enter to see the answer...")
+
+#function definition
+def find_x_3():
+    x = 5 * 9
+    print("The value of x is:", x)
+#function call
+find_x_3()
+
+
+hello = input("Press Enter to continue to the next exercise...")
+print('Exercise 4: Find the value of x = 100 / 0')
+print('What is the value of x?')
+print('Type your answer below and press Enter.')
+answer = input()
+wait = input("Press Enter to see the answer...")
+
+#function definition
+def find_x_4():
+    x = 100 / 0
+    print("The value of x is:", x)
+#function call
+find_x_4()
